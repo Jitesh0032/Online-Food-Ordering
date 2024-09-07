@@ -44,3 +44,36 @@ p {
     padding: 15px 420px 15px 60px;
     z-index: 2;
 }
+
+.sidebar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background-color: var(--maincolor);
+    z-index: 1;
+    padding-top: 70px;
+}
+
+.sidebar-menu {
+    width: 100%;
+    text-align: center;
+    padding: 10px 5px;
+    color: var(--darkgrey);
+}
+
+.sidebar-menu > a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--darkgrey);
+}
+
+.sidebar-menu:hover {
+    border-right: 2px solid var(--yellow);
+    color: var(--yellow);
+}
+.sidebar-menu:hover > a {
+    color: var(--yellow);
+}
