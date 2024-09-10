@@ -1,118 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Midnight Delights</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
+
+<>
     <input type="checkbox" id="cart">
-        <label for="cart" class="label-cart"><span class="fas fa-shopping-cart"></span></label>
+    <label for="cart" class="label-cart"><span class="fas fa-shopping-cart"></span></label>
 
-        <h3 class="logo">Midnight Delights</h3>
+    <h3 class="logo">Midnight Delights</h3>
 
-        <div class="sidebar">
-            <div class="sidebar-menu">
-                <span class="fas fa-search"></span>
-                <a href="#">Search</a>
-            </div>
-            <div class="sidebar-menu">
-                <span class="fas fa-home"></span>
-                <a href="#">Home</a>
-            </div>
-            <div class="sidebar-menu">
-                <span class="fas fa-heart"></span>
-                <a href="#">Favs</a>
-            </div>
-            <div class="sidebar-menu">
-                <span class="fas fa-user"></span>
-                <a href="#">Profile</a>
-            </div>
-            <div class="sidebar-menu"> 
-                <span class="fas fa-sliders-h"></span>
-                <a href="#">Setting</a>
+    <div class="sidebar">
+        <div class="sidebar-menu">
+            <span class="fas fa-search"></span>
+            <a href="#">Search</a>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-home"></span>
+            <a href="#">Home</a>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-heart"></span>
+            <a href="#">Favs</a>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-user"></span>
+            <a href="#">Profile</a>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-sliders-h"></span>
+            <a href="#">Setting</a>
+        </div>
+    </div>
+
+    <div class="dashboard">
+        <div class="dashboard-banner">
+            <img src="Img/Banner.jpg" alt="">
+            <div class="banner-promo">
+                <h1><span>50% OFF</span><br>
+                    Tasty Food <br> On Your Hand</h1>
             </div>
         </div>
 
-        <div class="dashboard">
-            <div class="dashboard-banner">
-                <img src="Img/Banner.jpg" alt="">
-                <div class="banner-promo">
-                    <h1><span>50% OFF</span><br>
-                    Tasty Food <br> On Your Hand</h1>
+        <h3 class="dashboard-title">Recommended Foo For You</h3>
+        <div class="dashboard-menu">
+            <a href="#">Favourites</a>
+            <a href="#">Best-Seller</a>
+            <a href="#">Near Me</a>
+            <a href="#">Promotion</a>
+            <a href="#">Top Rated</a>
+            <a href="#">All</a>
+        </div>
+
+        <div class="dashboard-content">
+            <div class="dashboard-card">
+                <img class="card-image" src="/Img/Burger.jpg" alt="burger">
+                <div class="card-details">
+                    <h4>Amazing Burger <span> Rs.80</span></h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusantium.</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>10-30 mins</p>
                 </div>
             </div>
 
-            <h3 class="dashboard-title">Recommended Foo For You</h3>
-            <div class="dashboard-menu">
-                <a href="#">Favourites</a>
-                <a href="#">Best-Seller</a>
-                <a href="#">Near Me</a>
-                <a href="#">Promotion</a>
-                <a href="#">Top Rated</a>
-                <a href="#">All</a>
+            <div class="dashboard-card">
+                <img class="card-image" src="/Img/Sandwich (2).jpg" alt="burger">
+                <div class="card-details">
+                    <h4>Amazing Sandwiches <span> Rs.100</span></h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusantium.</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>10-30 mins</p>
+                </div>
             </div>
 
-                <div class="dashboard-content">
-                    <div class="dashboard-card">
-                        <img class="card-image" src="/Img/Burger.jpg" alt="burger">
-                        <div class="card-details">
-                            <h4>Amazing Burger <span> Rs.80</span></h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusantium.</p>
-                            <p class="card-time"><span class="fas fa-clock"></span>10-30 mins</p>
-                        </div>
-                    </div>
-
-                    <div class="dashboard-card">
-                        <img class="card-image" src="/Img/Sandwich (2).jpg" alt="burger">
-                        <div class="card-details">
-                            <h4>Amazing Sandwiches <span> Rs.100</span></h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusantium.</p>
-                            <p class="card-time"><span class="fas fa-clock"></span>10-30 mins</p>
-                        </div>
-                    </div>
-
-                    <div class="dashboard-card">
-                        <img class="card-image" src="/Img/French Fries.png" alt="burger">
-                        <div class="card-details">
-                            <h4>French Fires <span> Rs.150</span></h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusantium.</p>
-                            <p class="card-time"><span class="fas fa-clock"></span>10-30 mins</p>
-                        </div>
-                    </div>
-
-                    <div class="dashboard-card">
-                        <img class="card-image" src="/Img/Banner.jpg" alt="burger">
-                        <div class="card-details">
-                            <h4>Delicious Meggie<span> Rs.150</span></h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusantium.</p>
-                            <p class="card-time"><span class="fas fa-clock"></span>10-30 mins</p>
-                        </div>
-                    </div>
-                
-                    <div class="dashboard-card">
-                        <img class="card-image" src="/Img/Burger.png" alt="burger">
-                        <div class="card-details">
-                            <h4>Tikka Pau<span> Rs.150</span></h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusantium.</p>
-                            <p class="card-time"><span class="fas fa-clock"></span>10-30 mins</p>
-                        </div>
-                    </div>
+            <div class="dashboard-card">
+                <img class="card-image" src="/Img/French Fries.png" alt="burger">
+                <div class="card-details">
+                    <h4>French Fires <span> Rs.150</span></h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusantium.</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>10-30 mins</p>
                 </div>
-             </div>
+            </div>
 
-             <div class="dashboard-order">
-                <h3>Order Menu</h3>
-                <div class="order-address">
-                    <p>Address Delivery</p>
-                    <h4>B/32 Navkar Apartment,Vejalpur, Ahmedabad</h4>
+            <div class="dashboard-card">
+                <img class="card-image" src="/Img/Banner.jpg" alt="burger">
+                <div class="card-details">
+                    <h4>Delicious Meggie<span> Rs.150</span></h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusantium.</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>10-30 mins</p>
                 </div>
-                <div class="order-time">
-                    <span class="fas fa-clock"></span> 30 mins <span class="fas fa-map-marker-alt"> 2 Kms </span>
+            </div>
+
+            <div class="dashboard-card">
+                <img class="card-image" src="/Img/Burger.png" alt="burger">
+                <div class="card-details">
+                    <h4>Tikka Pau<span> Rs.150</span></h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, accusantium.</p>
+                    <p class="card-time"><span class="fas fa-clock"></span>10-30 mins</p>
                 </div>
-             </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-order">
+        <h3>Order Menu</h3>
+        <div class="order-address">
+            <p>Address Delivery</p>
+            <h4>B/32 Navkar Apartment,Vejalpur, Ahmedabad</h4>
+        </div>
+        <div class="order-time">
+            <span class="fas fa-clock"></span> 30 mins <span class="fas fa-map-marker-alt"></span> 2 Kms
+        </div>
+    </div>
+
+    <div class="order-wrapper">
+        <div class="order-card">
+            <img src="/Img/Burger.jpg" class="order-image" alt="">
+            <div class="order-dettail">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <i class="fas fa-times"></i> <input type="text" value="1">
+            </div>
+            <h4 class="order-price"> Rs. 300 </h4>
+        </div>
+        <div class="order-card">
+            <img src="" class="order-image" alt="">
+            <div class="order-dettail">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <i class="fas fa-times"></i> <input type="text" value="1">
+            </div>
+            <h4 class="order-price"> Rs. 300 </h4>
+        </div>
+        <div class="order-card">
+            <img src="" class="order-image" alt="">
+            <div class="order-dettail">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <i class="fas fa-times"></i> <input type="text" value="1">
+            </div>
+            <h4 class="order-price"> Rs. 300 </h4>
+        </div>
+    </div>
+</div>
 </body>
 <script src="https://kit.fontawesome.com/376e9583bd.js" crossorigin="anonymous"></script>
+
 </html>

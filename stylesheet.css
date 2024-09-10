@@ -194,3 +194,23 @@ p {
     background-color: var(--maincolor);
     z-index: 3;
 }
+
+.dashboard-order > h3 {
+    padding: 10px 0;
+}
+
+.order-address > h4 {
+    line-height: 2;
+}
+
+.order-time {
+    font-size: 0.8rem;
+    color: var(--darkgrey);
+}
+
+.order-wrapper {
+    height: 180px;
+    width: 100%;
+    margin: 20px 0;
+    overflow-y: scroll;
+}
