@@ -183,3 +183,14 @@ p {
     font-size: 0.8rem;
     padding-top: 10px;
 }
+
+.dashboard-order {
+    width: 340px;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--maincolor);
+    z-index: 3;
+}
